@@ -1,0 +1,37 @@
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #15101f;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #211532;
+  background: #c4a8ff;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #15101f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #59456f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b79aff;
+}

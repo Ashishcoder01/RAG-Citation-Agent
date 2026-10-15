@@ -13,3 +13,4 @@ faiss-cpu
 numpy
 pytest
 httpx
+PyMuPDF
